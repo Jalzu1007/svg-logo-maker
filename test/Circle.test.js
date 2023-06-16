@@ -1,4 +1,4 @@
-const Circle = require('../lib/Circle');
+const Circle = require('../lib/circle')
 
 describe('Circle', () => {
   test('renders a circle SVG element with optional text', () => {
