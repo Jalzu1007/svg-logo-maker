@@ -16,6 +16,7 @@ Throughout the development of this project, I gained experience in using Node.js
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
+- [Tests](#tests)
 
 ## Installation
 
@@ -30,69 +31,32 @@ To install and run the SVG Logo Maker, follow these steps:
 
 Once the application is running, follow the prompts to generate your logo. You will be asked to enter text, select a color for the text, choose a shape from a list (circle, triangle, or square), and select a color for the shape. After providing input for all the prompts, the application will create an SVG file named logo.svg and display the message "Generated logo.svg" in the command line.
 
-Deployed website:
+Git Hub Repository:
 
-https://jalzu1007.github.io/the_recipe_bar/
+https://github.com/Jalzu1007/svg-logo-maker.git
 
-Walk-through video of the The Recipe Bar Application:
+Walk-through video of the SVG Logo Maker:
 
-[![the_recipe_bar](https://img.youtube.com/vi/eqVok_eBs3k/0.jpg)](https://www.youtube.com/watch?v=eqVok_eBs3k)
+[![svg-logo-maker](https://img.youtube.com/vi/O1uV7wjY8WI/0.jpg)](https://www.youtube.com/watch?v=O1uV7wjY8WI)
 
 ## Credits
 
-Collaborators for the The Recipe Bar Application:
-
-Elizabeth Jimenez - https://github.com/jimen8930/
-
-Josh Connell - https://github.com/cijoshtc/
-
-Lavar Brihm - https://github.com/lavarbrihm56/
-
-Ruben Alvarez - https://github.com/alvarezrdk/
-
-Jose Alzuri - https://github.com/Jalzu1007/
-
 I used the following third-party assets in this project:
 
-- https://www.flaticon.com/
-- https://punkapi.com/documentation/v2
-- https://www.thecocktaildb.com/api.php
-- https://icanhazdadjoke.com/ap
-- https://fonts.google.com/?preview.text=Weather%20Dashboard&preview.text_type=custom
-- https://jqueryui.com/
-- https://bulma.io/
-- https://youtu.be/cuEtnrL9-H0
-- https://youtu.be/zUcc4vW-jsI
-- https://en.wikipedia.org/wiki/Web_API
-- https://git-scm.com/book/en/v2/Git-Branching-Branching-Workflows
-- https://en.wikipedia.org/wiki/Agile_software_development
-- https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
-- https://developer.mozilla.org/en-US/docs/Web/API/Location
-- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON
-- https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Client-Server_overview
-- https://developer.mozilla.org/en-US/docs/Web/API/URL
-- https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/GET
+- https://youtu.be/m_MQYyJpIjg
+- https://youtu.be/mQ4oCgcgHOA
+- https://youtu.be/SOufDHKuRsI
+- https://youtu.be/670f71LTWpM
+- https://youtu.be/44b6CDDnDPg 
+- https://www.youtube.com/watch?v=FgnxcUQ5vho
+- https://www.youtube.com/watch?v=PQxtlY19kto&list=PLL8woMHwr36F2tCFnWTbVBQAGQ6nTcXOO
+- https://en.wikipedia.org/wiki/Test-driven_development 
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/constructor
 
 ## License
 
-MIT License
+N/A
 
-Copyright (c) 2023 The Recipe Bar
+## Tests
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Through the command line npm test or npm install jest, after run npx jest for all test suites.
